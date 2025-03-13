@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadi Khan | Creative Developer</title>
+    <meta name="description" content="Hadi Khan - Web Developer, UI/UX Designer, and Branding Expert based in Karachi, Pakistan">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Switcher -->
+    <div class="theme-switch">
+        <div class="theme-switch-toggle">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar"></div>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+            <div class="loader-text">Loading<span class="dots">...</span></div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Social Bar -->
+    <div class="social-bar">
+        <a href="#" class="social-link" data-tooltip="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/wth.hadi_/" class="social-link" data-tooltip="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/hadi-khan-35b7b3345/" class="social-link" data-tooltip="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/this-is-hassy" class="social-link" data-tooltip="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <div class="logo-container">
+                    <span class="logo-text">HK</span>
+                    <div class="logo-circle"></div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home"><span class="nav-number">01.</span> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><span class="nav-number">02.</span> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services"><span class="nav-number">03.</span> Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio"><span class="nav-number">04.</span> Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><span class="nav-number">05.</span> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles" id="particles-js"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-12 text-center">
+                    <div class="hero-content">
+                        <div class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                            <span class="line"></span>
+                            <span>Hello, I'm</span>
+                        </div>
+                        <h1 class="display-1 hero-title" data-aos="fade-up" data-aos-delay="400">
+                            <span class="text-reveal">Hadi Khan</span>
+                        </h1>
+                        <h2 class="hero-profession" data-aos="fade-up" data-aos-delay="600">
+                            <span class="highlight">
+                                <span class="typed-text"></span>
+                            </span>
+                        </h2>
+                        <p class="lead text-reveal-delayed" data-aos="fade-up" data-aos-delay="800">Based in Karachi, Pakistan</p>
+                        
+                        <div class="hero-buttons" data-aos="fade-up" data-aos-delay="1000">
+                            <a href="#portfolio" class="btn btn-primary btn-3d">View My Work</a>
+                            <a href="#contact" class="btn btn-outline">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="scroll-indicator">
+                        <div class="mouse"></div>
+                        <p>Scroll Down</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">About Me</span>
+                <h2 class="section-title">Know Me Better</h2>
+                <span class="section-line"></span>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-img">
+                        <img src="wth.hadi_-27-01-2025-0001.jpg" alt="Hadi Khan" class="img-fluid">
+                        <div class="experience-badge">
+                            <span class="number">1</span>
+                            <span class="text">Year<br>Experience</span>
+                        </div>
+                        <div class="img-frame"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-content">
+                        <div class="about-bio">
+                            <h3>Creative Developer & Designer</h3>
+                            <p class="lead">Passionate about creating beautiful and functional designs</p>
+                            <p>With 1 year of experience in web development, WordPress customization, Python programming, graphic design, and Microsoft Office, I specialize in building dynamic websites, creating visually appealing designs, and developing efficient Python solutions. Additionally, I excel in document creation, data analysis, and presentations, ensuring productivity and precision in every project.</p>
+                        </div>
+                        
+                        <div class="about-info">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="info-item">
+                                        <span class="info-title">Name:</span>
+                                        <span class="info-value">Hadi Khan</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="info-item">
+                                        <span class="info-title">Email:</span>
+                                        <span class="info-value"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="65084b04070110090d0404010c0e0d04040b250208040c094b060a08">[email&#160;protected]</a></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="info-item">
+                                        <span class="info-title">Phone:</span>
+                                        <span class="info-value">+92 0335 2563330</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="info-item">
+                                        <span class="info-title">Location:</span>
+                                        <span class="info-value">Karachi, Pakistan</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills">
+                            <h3>My Skills</h3>
+                            <div class="skill">
+                                <div class="skill-info">
+                                    <span class="skill-name">UI/UX Design</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-info">
+                                    <span class="skill-name">Web Development</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-info">
+                                    <span class="skill-name">Branding</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-buttons">
+                            <a href="#" class="btn btn-primary btn-3d">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section animated-bg">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-card">
+                        <i class="fas fa-project-diagram fa-2x mb-3"></i>
+                        <div class="counter-value" data-count="10">0</div>
+                        <h4>Projects Completed</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-card">
+                        <i class="fas fa-users fa-2x mb-3"></i>
+                        <div class="counter-value" data-count="10">0</div>
+                        <h4>Happy Clients</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-card">
+                        <i class="fas fa-clock fa-2x mb-3"></i>
+                        <div class="counter-value" data-count="100">0</div>
+                        <h4>Hours Worked</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-card">
+                        <i class="fas fa-award fa-2x mb-3"></i>
+                        <div class="counter-value" data-count="1">0</div>
+                        <h4>Awards Won</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">What I Do</span>
+                <h2 class="section-title">My Services</h2>
+                <span class="section-line"></span>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Creating intuitive and engaging user experiences</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <div class="service-details">
+                            <p>Expert in creating user-centered designs that enhance user experience and drive engagement. I focus on intuitive navigation, visual hierarchy, and responsive layouts.</p>
+                            <ul class="service-features">
+                                <li>User Research</li>
+                                <li>Wireframing</li>
+                                <li>Prototyping</li>
+                                <li>Usability Testing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Building responsive and modern websites</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <div class="service-details">
+                            <p>Developing custom websites with clean code and optimal performance for all devices. I create responsive, fast-loading websites with modern technologies.</p>
+                            <ul class="service-features">
+                                <li>HTML/CSS/JavaScript</li>
+                                <li>WordPress Development</li>
+                                <li>Responsive Design</li>
+                                <li>Performance Optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>Branding</h3>
+                        <p>Developing unique and memorable brand identities</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                        <div class="service-details">
+                            <p>Creating distinctive brand identities that resonate with target audiences and stand out in the market. I develop comprehensive brand strategies.</p>
+                            <ul class="service-features">
+                                <li>Logo Design</li>
+                                <li>Brand Guidelines</li>
+                                <li>Visual Identity</li>
+                                <li>Brand Strategy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Recent Work</span>
+                <h2 class="section-title">Portfolio</h2>
+                <span class="section-line"></span>
+            </div>
+            <div class="portfolio-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+            </div>
+            <div class="row g-4 portfolio-grid">
+                <div class="col-md-4 portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <img src="Screenshot (10).png" alt="Cosmic Discoveries" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-category">Web Design</span>
+                                <h3>Cosmic Discoveries</h3>
+                                <div class="portfolio-links">
+                                    <a href="Screenshot (10).png" class="portfolio-image-link" title="View Larger">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="cosmic.html" class="portfolio-link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-card">
+                        <img src="Screenshot (54).png" alt="WATCH-Z-TOP" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-category">Web Design</span>
+                                <h3>WATCH-Z-TOP</h3>
+                                <div class="portfolio-links">
+                                    <a href="Screenshot (54).png" class="portfolio-image-link" title="View Larger">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="Z.html" class="portfolio-link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-card">
+                        <img src="Screenshot (55).png" alt="MyFlix" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-category">Web Design</span>
+                                <h3>MyFlix</h3>
+                                <div class="portfolio-links">
+                                    <a href="Screenshot (55).png" class="portfolio-image-link" title="View Larger">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="flix.html" class="portfolio-link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="app" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <img src="Screenshot (56).png" alt="Virtual Assistant" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-category">App Development</span>
+                                <h3>Virtual Assistant</h3>
+                                <div class="portfolio-links">
+                                    <a href="Screenshot (56).png" class="portfolio-image-link" title="View Larger">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="Vapp.html" class="portfolio-link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <img src="Screenshot (57).png" alt="IPDC finance" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-category">Web development</span>
+                                <h3>IPDC Finance</h3>
+                                <div class="portfolio-links">
+                                    <a href="Screenshot (57).png" class="portfolio-image-link" title="View Larger">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="ipdc-finance.html" class="portfolio-link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <img src="Screenshot (58).png" alt="IT" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-category">Web development</span>
+                                <h3>IT Company</h3>
+                                <div class="portfolio-links">
+                                    <a href="Screenshot (58).png" class="portfolio-image-link" title="View Larger">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="it-company.html" class="portfolio-link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <img src="Screenshot (59).png" alt="Fashion" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-category">Web development</span>
+                                <h3>Fashion</h3>
+                                <div class="portfolio-links">
+                                    <a href="Screenshot (59).png" class="portfolio-image-link" title="View Larger">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="content-universe.html" class="portfolio-link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <img src="Screenshot (60).png" alt="TO-DO" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <span class="portfolio-category">Web development</span>
+                                <h3>TO-DO</h3>
+                                <div class="portfolio-links">
+                                    <a href="Screenshot (60).png" class="portfolio-image-link" title="View Larger">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="TO-DO.html" class="portfolio-link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section (NEW) -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">What Clients Say</span>
+                <h2 class="section-title">Testimonials</h2>
+                <span class="section-line"></span>
+            </div>
+            <div class="testimonial-slider" data-aos="fade-up">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>Hadi delivered an exceptional website that perfectly captured our brand's essence. His attention to detail and creative approach exceeded our expectations.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>CEO, TechStart</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>Working with Hadi was a pleasure. He understood our requirements quickly and delivered a stunning website that has significantly improved our online presence.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Michael Brown</h4>
+                                <span>Marketing Director, CreativeMinds</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>Hadi's design skills are top-notch. He created a user-friendly interface for our app that our customers love. Highly recommended for any UI/UX project.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Jessica Lee</h4>
+                                <span>Product Manager, AppInnovate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Contact Me</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <span class="section-line"></span>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="contact-info">
+                        <div class="contact-header">
+                            <h3>Let's talk about your project</h3>
+                            <p>Feel free to reach out if you want to collaborate with me, or simply have a chat.</p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-details">
+                                <h4>Location</h4>
+                                <p>Karachi, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-details">
+                                <h4>Email</h4>
+                                <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="65084b04070110090d0404010c0e0d04040b250208040c094b060a08">[email&#160;protected]</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-details">
+                                <h4>Phone</h4>
+                                <p>+92 0335 2563330</p>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <h4>Follow Me</h4>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/wth.hadi_/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/hadi-khan-35b7b3345/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://github.com/this-is-hassy"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">Your Name</label>
+                                        <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="email">Your Email</label>
+                                        <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" class="form-control" placeholder="Enter subject">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" class="form-control" rows="5" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-3d">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        <div id="formStatus" class="form-status">
+                            <div class="success-message">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Your message has been sent successfully!</p>
+                            </div>
+                            <div class="error-message">
+                                <i class="fas fa-times-circle"></i>
+                                <p>Oops! Something went wrong. Please try again.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-container">
+                        <span class="logo-text">HK</span>
+                        <div class="logo-circle"></div>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/wth.hadi_/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/hadi-khan-35b7b3345/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/this-is-hassy"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hadi Khan. All Rights Reserved.</p>
+                <a href="#home" class="back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
